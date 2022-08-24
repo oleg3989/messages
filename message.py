@@ -57,10 +57,7 @@ def add_message(sender, text):
     all_messages.append(new_message)
 
 
-@app.route("/len_text")
-def add_len(text):
-    text = len(text)
-    return len(text)
+
 
 
 @app.route("/message_count")
