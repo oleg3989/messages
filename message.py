@@ -60,7 +60,8 @@ def add_message(sender, text):
 @app.route("/len_text")
 def add_len(text):
     text = len(text)
-    return len(text)
+
+    return len(txt)
 
 
 @app.route("/message_count")
