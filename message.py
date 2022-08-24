@@ -57,9 +57,6 @@ def add_message(sender, text):
     all_messages.append(new_message)
 
 
-
-
-
 @app.route("/message_count")
 def message_count():
     return f"There's {len(all_messages)} messages in our chat."
